@@ -1,0 +1,128 @@
+body{
+  background-color: #FAFAFA !important;
+
+}
+
+button{
+  margin: 5px !important;
+}
+#corpo{
+  margin-top: 120px;
+}
+#cont{
+  background-color: white;
+  -webkit-box-shadow: -5px 5px 15px 5px rgba(29, 140, 231, 0.45);
+  -moz-box-shadow:    -2px 5px 15px 5px rgba(29, 140, 231, 0.45);
+  box-shadow:         -2px 5px 15px 5px rgba(29, 140, 231, 0.45);
+  margin-bottom: 30px !important;
+}
+nav{
+  background-color: white;
+  -webkit-box-shadow: -35px 32px 14px rgba(29, 140, 231, 0.45);
+  -moz-box-shadow:    -35px 32px 14px rgba(29, 140, 231, 0.45);
+  box-shadow:         0px 12px 14px rgba(29, 140, 231, 0.45);
+}
+li,a{
+  color: black !important;
+}
+footer{
+  background-color: white !important;
+}
+.menutg{
+  background-color: #0101DF !important;
+}
+.div-imagem{
+    top: left;
+    position: relative;
+    margin: 10px;
+    width: 150px;
+  height: 150px;
+}
+
+#vermelho{
+  background-color: red !important;
+  
+}
+
+#rosa{
+  background-color: pink !important;
+  
+}
+#verde{
+  background-color: green !important;
+  
+}
+.imagem{
+  width: 150px;
+  height: 150px;
+}
+
+.texto-imagem{
+    width: 84%;
+    height: 50%;
+    top: right;
+    float: right;
+    position: relative;
+    text-align: justify;
+    margin-left: 15px;
+}
+.texto-produto{
+  width: 50%;
+    top: right;
+    float: right;
+    position: relative;
+    text-align: justify;
+    margin-left: 15px;
+}
+
+
+.cor-carrocel{
+  background-color: #E6E6E6 !important;
+  }
+.carousel-item{
+  position: center;
+}
+#img-carrocel {
+    margin-left: 30%;
+}
+@media screen and (max-width: 900px) {
+  #img-carrocel {
+    margin-left: 0%;
+   /* background-color: violet;*/
+  }
+}
+
+.fa {
+  padding: 5px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+/* Remove as bordas arredondadas padrão da barra de navegação e aumenta a margem inferior */ 
+.navbar {
+    margin-bottom: 50px;
+    border-radius: 0;
+    background-color: white !important;
+  }
+  
+  /* Remove a margem inferior padrão do jumbotron */ 
+   .jumbotron {
+    margin-bottom: 0;
+  }
+ 
+  /* Adiciona uma cor de fundo cinza e algum preenchimento ao rodapé */
+  footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+  }
