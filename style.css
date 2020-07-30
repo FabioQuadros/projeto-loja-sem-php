@@ -1,8 +1,19 @@
 body{
-  background-color: #FAFAFA !important;
+  background-color: #F2F2F2!important;
 
 }
-
+#div-menu:hover{
+  background-color: royalblue;
+  width: 60px;
+  height: 30px;
+  text-align: center;
+}
+#frete{
+  background-color: blue !important;
+  text-align: center;
+  color: yellow;
+  margin-bottom: 16px;
+}
 button{
   margin: 5px !important;
 }
@@ -21,6 +32,7 @@ nav{
   -webkit-box-shadow: -35px 32px 14px rgba(29, 140, 231, 0.45);
   -moz-box-shadow:    -35px 32px 14px rgba(29, 140, 231, 0.45);
   box-shadow:         0px 12px 14px rgba(29, 140, 231, 0.45);
+  margin: 25px;
 }
 li,a{
   color: black !important;
@@ -38,18 +50,24 @@ footer{
     width: 150px;
   height: 150px;
 }
-
+/*remover depois*/
 #vermelho{
-  background-color: red !important;
+  background-color: white !important;
+  margin-left: 10%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
   
 }
 
 #rosa{
-  background-color: pink !important;
-  
+  background-color: white !important;
+  margin: 5px;
+ 
 }
 #verde{
-  background-color: green !important;
+  background-color: white !important;
+  margin: 5px;
   
 }
 .imagem{
@@ -67,17 +85,12 @@ footer{
     margin-left: 15px;
 }
 .texto-produto{
-  width: 50%;
-    top: right;
-    float: right;
-    position: relative;
-    text-align: justify;
+    top: left;
+    float: left;
     margin-left: 15px;
 }
-
-
 .cor-carrocel{
-  background-color: #E6E6E6 !important;
+  background-color: #BDBDBD !important;
   }
 .carousel-item{
   position: center;
@@ -86,9 +99,30 @@ footer{
     margin-left: 30%;
 }
 @media screen and (max-width: 900px) {
-  #img-carrocel {
+  #img-carrocel { 
+    margin-left: 7%;
+  }
+  #img{
+    width: 300px;
+    height: 300px;
+  }
+  #vermelho{
     margin-left: 0%;
-   /* background-color: violet;*/
+    margin: 5px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #img-carrocel { 
+    margin-left: 7%;
+  }
+  #img{
+    width: 300px;
+    height: 300px;
+  }
+  #vermelho{
+    margin-left: 0%;
+    margin: 5px;
   }
 }
 
